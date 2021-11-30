@@ -28,7 +28,7 @@ describe("reduce.js", function() {
         expect(reduce("World", (sum, n) => sum + n, "Hello ")).to.eql('Hello World');
     });
 
-    //It doesn't add 100 to 50
+    //It doesn't add 100 to 50. Myabe it's and error
     it("Should reduce with a number parameter", function() {
         expect(reduce(100, (sum, n) => sum + n, 50)).to.equal(150);
     });
