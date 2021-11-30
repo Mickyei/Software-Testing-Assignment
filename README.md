@@ -1,5 +1,5 @@
 # Student template
-
+Use npx mocha --reporter mochawesome to run testing with reports
 ## Purpose of this repository
 
 This is a project template for students participating in Software Testing course
