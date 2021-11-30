@@ -1,4 +1,5 @@
-# Student template [![CircleCI](https://circleci.com/gh/Mickyei/Software-Testing-Assignment/tree/main.svg?style=svg)](https://circleci.com/gh/Mickyei/Software-Testing-Assignment/tree/main)
+# Student template
+Status of tests: [![CircleCI](https://circleci.com/gh/Mickyei/Software-Testing-Assignment/tree/main.svg?style=svg)](https://circleci.com/gh/Mickyei/Software-Testing-Assignment/tree/main)
 Use npx mocha --reporter mochawesome to run testing with reports
 ## Purpose of this repository
 
