@@ -1,7 +1,7 @@
 import { expect } from 'chai';
 import add from '../src/add.js';
 
-describe("Add.js", function() {
+describe("add.js", function() {
     it("Adds two positive numbers", function() {
         expect(add(10,10)).to.equal(20);
     });
@@ -23,7 +23,7 @@ describe("Add.js", function() {
         expect(add(10,"Test")).to.throw();
     });
 
-    
+    //add.js doesn't test for faulty input
     it("Should throw error when given an array", function() {
         expect(add(10,[1, 2, 3])).to.throw();
     });
