@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "NODE_ENV=test nyc --reporter=lcov --reporter=text --reporter=html mocha src/test/*.js --timeout 10000 -c --require @babel/register --exit",
+    "test": "NODE_ENV=test nyc --reporter=lcov --reporter=text --reporter=html mocha test/*.js --timeout 10000 -c --require @babel/register --exit",
     "coverage": "npx mocha --reporter mochawesome | coveralls"
   },
   "author": "",
