@@ -5,9 +5,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no tests are implemented yet \" && exit 1"
+    "test": "echo \"Error: no tests are implemented yet \" && exit 1",
+    "coverage": "nyc report --reporter=text-lcov | coveralls"
   },
-  "coverage": "nyc report --reporter=text-lcov | coveralls",
   "author": "",
   "license": "MIT",
   "dependencies": {},
