@@ -18,7 +18,7 @@ jobs:
       - run: npm install
       - run:
           name: "Run tests"
-          command: npx mocha --reporter mochawesome
+          command: npm run test
       - run: # run code coverage report
           name: "code-coverage"
           command: npm run coverage
