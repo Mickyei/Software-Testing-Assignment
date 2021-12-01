@@ -18,7 +18,7 @@ describe("add.js", function() {
         expect(add(-10,10)).to.equal(0);
     });
     
-    //add.js doesn't test for faulty input
+    //add.js doesn't test for faulty input, so non-numbers can be passed
     it("Should combine number to string", function() {
         expect(add(10,"Test")).to.eql('10Test');
     });

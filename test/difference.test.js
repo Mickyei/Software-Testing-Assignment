@@ -20,7 +20,7 @@ describe("difference.js", function() {
         expect(difference(1, [0, 1])).to.eql([]);
     });
 
-    //filter.js works with a string as an array
+    //filter.js works with a string as an array, why not this function?
     it("Should return empty array with string parameter", function() {
         expect(difference('GreAen Apbple', ['A', 'b'])).to.eql([]);
     });
