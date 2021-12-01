@@ -16,7 +16,7 @@ jobs:
       - checkout
       - run: npm install
       - run:
-          name: "Say hello"
+          name: "Run tests"
           command: npx mocha --reporter mochawesome
 
 # Invoke jobs via workflows
