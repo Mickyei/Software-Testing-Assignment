@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "This is a project template for students participating in Software Testing course\r at Tampere University.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no tests are implemented yet \" && exit 1"
   },
