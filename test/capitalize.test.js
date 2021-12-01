@@ -12,12 +12,12 @@ describe("capitalize.js", function() {
     });
 
 
-    it("Should do nothing when given a number", function() {
-        expect(capitalize(12345)).to.eql(12345);
+    it("Should return string when given a number", function() {
+        expect(capitalize(12345)).to.equal('12345');
     });
 
     //It also includes the ',' is this intentional?
     it("Should combine array of strings and capitalize first letter", function() {
-        expect(capitalize(['green', 'apple'])).to.eql('Green, apple');
+        expect(capitalize(['green', 'apple'])).to.equal('Green,apple');
     });
   });

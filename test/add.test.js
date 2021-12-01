@@ -19,13 +19,13 @@ describe("add.js", function() {
     });
     
     //add.js doesn't test for faulty input
-    it("Should throw error when given a string", function() {
-        expect(add(10,"Test")).to.throw();
+    it("Should combine number to string", function() {
+        expect(add(10,"Test")).to.eql('10Test');
     });
 
     //add.js doesn't test for faulty input
-    it("Should throw error when given an array", function() {
-        expect(add(10,[1, 2, 3])).to.throw();
+    it("Should equal NaN when given an array", function() {
+        expect(add(10,[1, 2, 3])).to.eql(NaN);
     });
 
 

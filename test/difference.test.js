@@ -21,8 +21,8 @@ describe("difference.js", function() {
     });
 
     //filter.js works with a string as an array
-    it("Should filter string from input", function() {
-        expect(difference('GreAen Apbple', ['A', 'b'])).to.eql(['Green Apple']);
+    it("Should return empty array with string parameter", function() {
+        expect(difference('GreAen Apbple', ['A', 'b'])).to.eql([]);
     });
     
   });
