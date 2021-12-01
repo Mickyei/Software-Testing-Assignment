@@ -2,7 +2,7 @@
 Status of tests: [![CircleCI](https://circleci.com/gh/Mickyei/Software-Testing-Assignment/tree/main.svg?style=svg)](https://circleci.com/gh/Mickyei/Software-Testing-Assignment/tree/main)
 
 
-Use npx mocha --reporter mochawesome to run testing with reports
+Use npx mocha --reporter mochawesome to run testing with reports123
 ## Purpose of this repository
 
 This is a project template for students participating in Software Testing course
