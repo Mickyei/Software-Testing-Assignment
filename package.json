@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "NODE_ENV=test nyc --reporter=lcov --reporter=text --reporter=html mocha test/*.js --timeout 10000 -c --require @babel/register --exit",
-    "coverage": "nyc report --reporter=text-lcov | coveralls"
+    "coverage": "npx mocha --reporter mochawesome | coveralls"
   },
   "author": "",
   "license": "MIT",
