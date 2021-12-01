@@ -3,19 +3,21 @@
   "version": "1.0.0",
   "description": "This is a project template for students participating in Software Testing course\r at Tampere University.",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "test": "echo \"Error: no tests are implemented yet \" && exit 1"
   },
   "author": "",
   "license": "MIT",
-  "dependencies": {
-    "chai": "^4.3.4",
-    "mocha": "^9.1.3"
-  },
+  "dependencies": {},
   "devDependencies": {
+    "@babel/register": "^7.16.0",
+    "chai": "^4.3.4",
+    "coveralls": "^3.1.1",
+    "mocha": "^9.1.3",
+    "mocha-lcov-reporter": "^1.3.0",
     "mochawesome": "^7.0.1",
-    "mochawesome-report-generator": "^6.0.1"
+    "mochawesome-report-generator": "^6.0.1",
+    "nyc": "^15.1.0"
   },
   "directories": {
     "test": "test"
