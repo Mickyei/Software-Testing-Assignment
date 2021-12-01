@@ -11,9 +11,6 @@ jobs:
     # See: https://circleci.com/docs/2.0/configuration-reference/#docker-machine-macos-windows-executor
     docker:
       - image: cimg/node:17.1.0
-    environment:
-      NODE_ENV: test
-      DATABASE_URL: process.env.DATABASE_URL_TEST
     # Add steps to the job
     # See: https://circleci.com/docs/2.0/configuration-reference/#steps
     steps:
