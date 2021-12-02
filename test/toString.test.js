@@ -17,7 +17,6 @@ describe("toString.js", function() {
     //[object Object] is JavaScripts default conversion from object to string
     it("Should return [object Object] with object parameter", function() {
         const result = toString({name: 'Steak', category: 'meat'});
-        console.log(result);
         expect(toString({name: 'Steak', category: 'meat'})).to.eql("[object Object]");
     });
 
