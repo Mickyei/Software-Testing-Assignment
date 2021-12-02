@@ -1,5 +1,6 @@
 # Student template
 Status of tests: [![CircleCI](https://circleci.com/gh/Mickyei/Software-Testing-Assignment/tree/main.svg?style=svg)](https://circleci.com/gh/Mickyei/Software-Testing-Assignment/tree/main)
+Coverage: [![Coverage Status](https://coveralls.io/repos/github/Mickyei/Software-Testing-Assignment/badge.svg?branch=main)](https://coveralls.io/github/Mickyei/Software-Testing-Assignment?branch=main)
 
 
 Use npx mocha --reporter mochawesome to run testing with reports
